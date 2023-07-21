@@ -1,0 +1,153 @@
+/* //cormorant */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Cormorant+Garamond:wght@300&family=Poiret+One&family=Tangerine:wght@700&display=swap');
+
+
+:root{
+    --background-color:#FFEADD;
+    --lightest:#FCAEAE;
+    --medium:#FF8989;
+    --hot:#FF6666;
+}
+
+*{
+    /* background-color: #FFEADD; */
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Bodoni Moda', serif; */
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-family: 'Poiret One', cursive;
+
+}
+
+body{
+    background-image: url('assets/background_image-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    
+}
+
+.images{
+    height: 9px;
+    position: relative;
+}
+
+.images img{
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    /* top: -10rem; */
+}
+
+.b1{
+    width: 16rem;
+    /* height: 10rem; */
+    transform: rotate(30deg);
+    top: -4rem;
+}
+
+.b2{
+    /* margin-top: 1rem; */
+    width: 10rem;
+    left: 9.5rem;
+    top: -47rem;
+    
+}
+
+.b3{
+    width: 16rem;
+    top: -35rem;
+    left: 70rem;
+    transform: rotate(-30deg);
+}
+
+
+/* heading */
+.heading{
+    /* font-family: 'Tangerine', cursive; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 6rem;
+    /* line-height: 220px; */
+    letter-spacing: 3px;
+    /* color: #FF6666; */
+    margin-top: 5%;
+}
+
+/* form */
+.inputs{
+    /* font-family: 'Bodoni Moda', serif; */
+    /* font-family: 'Cormorant Garamond', serif; */
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn1 , .btn2{
+    /* font-family: 'Bodoni Moda', serif; */
+    font-family: 'Cormorant Garamond', serif;
+    width: 20rem;
+    height: 3rem;
+    font-size: 1rem;
+    /* margin: 9% 0 0 9%; */
+    margin-top: 4%;
+    text-align: center;
+}
+
+.inputs input{
+    font-size: 20px;
+    padding: 4%;
+    margin-top: 4%;
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: #f9dcdc;
+    /* color: aliceblue; */
+    font-weight: 600;
+}
+
+label{
+    /* font-family: 'Bodoni Moda', serif; */
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.inputs img{
+    width: 4rem;
+    margin-top: 8rem;
+}
+
+.btn3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn3 button{
+    margin: 4rem;
+    padding: 1rem;
+    width: 10rem;
+    font-size: 20px;
+    /* padding: 4%; */
+    /* margin-top: 4%; */
+    border: 5px solid var(--hot);
+    border-radius: 20px;
+    background-color: #f9dcdc;
+    /* color: aliceblue; */
+    font-weight: 600;
+
+}
+
+.btn3 button:hover{
+    background-color: #FF6666;
+    cursor: pointer;
+}
